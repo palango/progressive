@@ -4,6 +4,7 @@ version = "0.1.0"
 authors = ["Paul Lange <palango@gmx.de>"]
 description = "A rust library for showing progress of iterators and loops"
 
+documentation = "https://palango.github.io/progressive/progressive/index.html"
 homepage = "https://github.com/palango/progressive"
 repository = "https://github.com/palango/progressive"
 
