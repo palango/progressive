@@ -3,6 +3,9 @@ progressive
 
 A rust library for showing progress of iterators and loops.
 
+[![Build Status](https://travis-ci.org/palango/progressive.svg?branch=master)](https://travis-ci.org/palango/progressive)
+[![Current Version](http://meritbadge.herokuapp.com/progressive)](https://crates.io/crates/progressive)
+[![License](https://img.shields.io/crates/l/progressive.svg)]()
 ### Documentation
 
 To create the documentation run:
