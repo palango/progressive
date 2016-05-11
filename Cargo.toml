@@ -1,0 +1,10 @@
+[package]
+name = "progressive"
+version = "0.1.0"
+authors = ["Paul Lange <palango@gmx.de>"]
+
+[dependencies]
+clippy = {version = "*", optional = true}
+
+[features]
+default=[]
