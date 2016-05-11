@@ -1,17 +1,13 @@
 //! Lets you wrap an iterator and show progress while running it.
 //!
 //! ```
-//! extern crate progressive;
-//!
 //! use progressive::progress;
 //! use std::time::Duration;
 //!
-//! fn main() {
-//!     // wrap the range in progress() to see progress information
-//!     for _ in progress(0..10) {
-//!         // do something expensive here
-//!         std::thread::sleep(Duration::from_millis(500));
-//!     }
+//! // wrap the range in progress() to see progress information
+//! for _ in progress(0..10) {
+//!     // do something expensive here
+//!     std::thread::sleep(Duration::from_millis(500));
 //! }
 //! ```
 
@@ -69,17 +65,13 @@ impl<I: Iterator> Iterator for Progress<I> {
 /// iterators items.
 ///
 /// ```
-/// extern crate progressive;
-///
 /// use progressive::progress;
 /// use std::time::Duration;
 ///
-/// fn main() {
-///     // wrap the range in progress() to see progress information
-///     for _ in progress(0..10) {
-///         // do something expensive here
-///         std::thread::sleep(Duration::from_millis(500));
-///     }
+/// // wrap the range in progress() to see progress information
+/// for _ in progress(0..10) {
+///     // do something expensive here
+///     std::thread::sleep(Duration::from_millis(500));
 /// }
 /// ```
 pub fn progress<I: Iterator>(input: I) -> Progress<I> {
