@@ -7,6 +7,7 @@ A rust library for showing progress of iterators and loops.
 [![Current Version](http://meritbadge.herokuapp.com/progressive)](https://crates.io/crates/progressive)
 [![License](https://img.shields.io/crates/l/progressive.svg)]()
 
+[![asciicast](https://asciinema.org/a/apt9cru9fqm65jqkvw8t9otpv.png)](https://asciinema.org/a/apt9cru9fqm65jqkvw8t9otpv)
 ### [Documentation](https://palango.github.io/progressive/)
 
 ### Usage
