@@ -1,0 +1,3 @@
+var searchIndex = {};
+searchIndex["progressive"] = {"doc":"Lets you wrap an iterator and show progress while running it.","items":[[3,"Progress","progressive","An iterator that shows progress information while iterating.",null,null],[5,"progress","","Wraps an iterator and displays progress information while returning the\niterators items.",null,{"inputs":[{"name":"i"}],"output":{"name":"progress"}}],[11,"fmt","","",0,{"inputs":[{"name":"progress"},{"name":"formatter"}],"output":{"name":"result"}}],[11,"next","","",0,{"inputs":[{"name":"progress"}],"output":{"name":"option"}}],[11,"size_hint","","",0,null]],"paths":[[3,"Progress"]]};
+initSearch(searchIndex);
