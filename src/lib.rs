@@ -91,7 +91,7 @@ fn print_meter(length: u8, count: usize, total: usize, passed: Duration) {
     let ratio = count as f32 / total as f32;
     let filled_length = f32::round(ratio * length as f32) as u8;
     std::io::stdout().flush().unwrap();
-    print!("\r[");
+    print!("\r{0:5.1}% [", ratio * 100.0);
     for i in 0u8..length {
         if i < filled_length {
             print!("#");
@@ -99,7 +99,7 @@ fn print_meter(length: u8, count: usize, total: usize, passed: Duration) {
             print!("-");
         }
     }
-    print!("]  {0:5.1}%  {1}/{2}  ", ratio * 100.0, count, total);
+    print!("]  {0}/{1}  ", count, total);
 
     let passed_time = duration_to_f64(passed);
     let iters_per_sec = count as f64 / passed_time;
