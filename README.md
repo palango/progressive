@@ -25,7 +25,7 @@ And this to your crate root:
 extern crate progressive;
 ```
 
-Here's a simple example that shows how to wrap an iterator tin order to get progress information:
+Here's a simple example that shows how to wrap an iterator in order to get progress information:
 
 ```rust
 extern crate progressive;
